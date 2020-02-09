@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
     tools:context=".MainActivity">
 
     <Button
@@ -14,7 +15,7 @@
         android:background="@color/colorPrimary"
         android:onClick="btnSnipersOnClick"
         android:text="@string/btn_sniper_string"
-        android:textColor="?attr/actionMenuTextColor"
+        android:textColor="?android:attr/textColorPrimary"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -28,8 +29,9 @@
         android:layout_width="386dp"
         android:layout_height="32dp"
         android:background="@color/colorPrimary"
+        android:onClick="btnGrenadesOnClick"
         android:text="@string/btn_grenade_string"
-        android:textColor="?attr/actionMenuTextColor"
+        android:textColor="?android:attr/textColorPrimary"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -43,8 +45,9 @@
         android:layout_width="386dp"
         android:layout_height="32dp"
         android:background="@color/colorPrimary"
+        android:onClick="btnRiflesOnClick"
         android:text="@string/btn_rifle_string"
-        android:textColor="?attr/actionMenuTextColor"
+        android:textColor="?android:attr/textColorPrimary"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -58,8 +61,9 @@
         android:layout_width="386dp"
         android:layout_height="32dp"
         android:background="@color/colorPrimary"
+        android:onClick="btnPistolsOnClick"
         android:text="@string/btn_pistol_string"
-        android:textColor="?attr/actionMenuTextColor"
+        android:textColor="?android:attr/textColorPrimary"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -79,7 +83,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.018" />
+        app:layout_constraintVertical_bias="0.018"/>
 
     <Space
         android:layout_width="386dp"
@@ -116,9 +120,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/txt_weapon_chooser_string"
-
-        android:textColor="?attr/actionMenuTextColor"
+        android:textColor="?android:attr/textColorPrimary"
         android:textSize="18sp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -175,10 +179,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/txt_title_string"
-
-        android:textColor="@android:color/black"
+        android:textColor="?android:attr/textColorPrimary"
         android:textSize="24sp"
         android:textStyle="bold|italic"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.036"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -190,6 +194,8 @@
         android:id="@+id/txt_weapon_description"
         android:layout_width="386dp"
         android:layout_height="232dp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:text="@string/desc_default"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
