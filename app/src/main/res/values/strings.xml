@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PAM_DOSEN_TUGAS 2</string>
+    <string name="switch_string">Night Mode</string>
+
+    <string name="btn_rifle_string">Rifles</string>
+    <string name="btn_sniper_string">Snipers</string>
+    <string name="btn_pistol_string">Pistols</string>
+    <string name="btn_grenade_string">Grenades</string>
+
+    <string name="txt_weapon_chooser_string">Weapons</string>
+    <string name="txt_title_string">CS:GO</string>
+</resources>
